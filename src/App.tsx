@@ -488,7 +488,7 @@ function App() {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>© 2025 AI Assistant. All rights reserved.</p>
+            <p>© 2025 NeuroDesk- AI Assistant. All rights reserved.</p>
           </div>
         </div>
       </footer>
