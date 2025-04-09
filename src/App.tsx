@@ -401,6 +401,60 @@ function App() {
   </div>
 </section>
 
+{/* Pricing Section */}
+<section id="pricing" className="py-20 bg-gray-950 text-white">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto text-center mb-12 fade-in">
+      <h2 className="text-4xl font-bold mb-4">Flexible Pricing for Everyone</h2>
+      <p className="text-gray-400">Choose a plan that fits your needs—whether you're just exploring or going all in.</p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      
+      {/* Free Plan */}
+      <div className="p-8 bg-gray-900 rounded-2xl shadow-xl border border-gray-800">
+        <h3 className="text-2xl font-semibold mb-4 text-purple-400">Free</h3>
+        <p className="text-4xl font-bold mb-6">$0<span className="text-base font-normal text-gray-400">/mo</span></p>
+        <ul className="text-gray-400 space-y-3 mb-8">
+          <li>✔️ Basic LLM Access</li>
+          <li>✔️ Regular Robotic Voice</li>
+          <li>✔️ Meeting Scheduler</li>
+          <li>✔️ Email Composer,flights booking etc..</li>
+          <li>✔️ Task Automation</li>
+        </ul>
+        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-xl transition">Get Started</button>
+      </div>
+
+      {/* Pro Plan */}
+      <div className="p-8 bg-gradient-to-br from-purple-800 to-purple-600 rounded-2xl shadow-2xl transform scale-105 border-2 border-purple-400">
+        <h3 className="text-2xl font-semibold mb-4 text-white">Pro</h3>
+        <p className="text-4xl font-bold mb-6">$29<span className="text-base font-normal text-gray-200">/mo</span></p>
+        <ul className="text-white space-y-3 mb-8">
+          <li>✔️ Advanced LLMs Access</li>
+          <li>✔️ Companion Personalities</li>
+          <li>✔️ Voice Cloning (1 Member)</li>
+          <li>✔️ Premium Voices</li>
+          <li>✔️ Smart Suggestions</li>
+        </ul>
+        <button className="w-full bg-white text-purple-700 font-bold py-2 rounded-xl transition hover:bg-purple-200">Upgrade to Pro</button>
+      </div>
+
+      {/* Ultimate Plan */}
+      <div className="p-8 bg-gray-900 rounded-2xl shadow-xl border border-gray-800">
+        <h3 className="text-2xl font-semibold mb-4 text-purple-400">Ultimate</h3>
+        <p className="text-4xl font-bold mb-6">$99<span className="text-base font-normal text-gray-400">/mo</span></p>
+        <ul className="text-gray-400 space-y-3 mb-8">
+          <li>✔️ All Pro Features</li>
+          <li>✔️ Multiple Personality Modes</li>
+          <li>✔️ Clone Voice of Family or Partner</li>
+          <li>✔️ Custom Companionship Settings</li>
+          <li>✔️ MCP, Deep Customization APIs</li>
+        </ul>
+        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-xl transition">Go Ultimate</button>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
       {/* CTA Section */}
