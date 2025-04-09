@@ -413,7 +413,7 @@ function App() {
       {/* Free Plan */}
       <div className="p-8 bg-gray-900 rounded-2xl shadow-xl border border-gray-800">
         <h3 className="text-2xl font-semibold mb-4 text-purple-400">Free</h3>
-        <p className="text-4xl font-bold mb-6">$0<span className="text-base font-normal text-gray-400">/mo</span></p>
+        <p className="text-4xl font-bold mb-6">₹0<span className="text-base font-normal text-gray-400">/mo</span></p>
         <ul className="text-gray-400 space-y-3 mb-8">
           <li>✔️ Basic LLM Access</li>
           <li>✔️ Regular Robotic Voice</li>
@@ -427,7 +427,7 @@ function App() {
       {/* Pro Plan */}
       <div className="p-8 bg-gradient-to-br from-purple-800 to-purple-600 rounded-2xl shadow-2xl transform scale-105 border-2 border-purple-400">
         <h3 className="text-2xl font-semibold mb-4 text-white">Pro</h3>
-        <p className="text-4xl font-bold mb-6">$29<span className="text-base font-normal text-gray-200">/mo</span></p>
+        <p className="text-4xl font-bold mb-6">₹499<span className="text-base font-normal text-gray-200">/mo</span></p>
         <ul className="text-white space-y-3 mb-8">
           <li>✔️ Advanced LLMs Access</li>
           <li>✔️ Companion Personalities</li>
@@ -441,7 +441,7 @@ function App() {
       {/* Ultimate Plan */}
       <div className="p-8 bg-gray-900 rounded-2xl shadow-xl border border-gray-800">
         <h3 className="text-2xl font-semibold mb-4 text-purple-400">Ultimate</h3>
-        <p className="text-4xl font-bold mb-6">$99<span className="text-base font-normal text-gray-400">/mo</span></p>
+        <p className="text-4xl font-bold mb-6">₹2,999<span className="text-base font-normal text-gray-400">/mo</span></p>
         <ul className="text-gray-400 space-y-3 mb-8">
           <li>✔️ All Pro Features</li>
           <li>✔️ Multiple Personality Modes</li>
