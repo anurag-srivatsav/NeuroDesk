@@ -102,29 +102,30 @@ function Blog() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-900 to-purple-900/20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-            <p className="text-gray-300 mb-8">
-              Subscribe to our newsletter for the latest updates, tips, and insights.
-            </p>
-            <form className="flex gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-purple-500"
-              />
-              <button
-                type="submit"
-                className="px-6 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+      {/* Newsletter Section */}
+<section className="py-12 sm:py-20 bg-gradient-to-b from-gray-900 to-purple-900/20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-2xl mx-auto text-center">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-4">Stay Updated</h2>
+      <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-8">
+        Subscribe to our newsletter for the latest updates, tips, and insights.
+      </p>
+      <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-md mx-auto">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          className="flex-1 px-3 sm:px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-purple-500 w-full"
+        />
+        <button
+          type="submit"
+          className="px-6 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all mt-2 sm:mt-0 w-full sm:w-auto"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
