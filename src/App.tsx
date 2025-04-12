@@ -179,7 +179,8 @@ function App() {
       <p className="text-xl text-gray-300 mb-8">
         Voice-activated. Intelligently responsive. Perfectly personal.
       </p>
-      <div className="flex flex-col gap-4 sm:flex-row sm:gap-4 justify-center">
+      <div className="flex flex-col gap-4 md:flex-row md:gap-4 justify-center">
+
         <button 
           onClick={handleDownload}
           className="px-8 py-4 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all flex items-center justify-center gap-2"
