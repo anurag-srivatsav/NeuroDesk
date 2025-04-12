@@ -167,41 +167,40 @@ function App() {
           </div>
         </div>
       </nav>
-
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-purple-900/20"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center max-w-4xl mx-auto fade-in">
-            <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-              Meet Your Ultimate Desktop AI Personal Assistant
-            </h1>
-            <p className="text-xl text-gray-300 mb-8">
-              Voice-activated. Intelligently responsive. Perfectly personal.
-            </p>
-            <div className="flex gap-4 justify-center">
-              <button 
-                onClick={handleDownload}
-                className="px-8 py-4 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all flex items-center gap-2"
-              >
-                <Download size={20} />
-                Download Now
-              </button>
-              <a
-                href="https://github.com/anurag-srivatsav/Desktop_AI"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all flex items-center gap-2"
-              >
-                <Github size={20} />
-                View on GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-gray-900 to-transparent"></div>
-      </section>
+  {/* Hero Section */}
+<section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <div className="absolute inset-0 bg-purple-900/20"></div>
+  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10"></div>
+  <div className="container mx-auto px-4 relative z-10">
+    <div className="text-center max-w-4xl mx-auto fade-in">
+      <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+        Meet Your Ultimate Desktop AI Personal Assistant
+      </h1>
+      <p className="text-xl text-gray-300 mb-8">
+        Voice-activated. Intelligently responsive. Perfectly personal.
+      </p>
+      <div className="flex flex-col gap-4 sm:flex-row sm:gap-4 justify-center">
+        <button 
+          onClick={handleDownload}
+          className="px-8 py-4 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all flex items-center justify-center gap-2"
+        >
+          <Download size={20} />
+          Download Now
+        </button>
+        <a
+          href="https://github.com/anurag-srivatsav/Desktop_AI"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-8 py-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all flex items-center justify-center gap-2"
+        >
+          <Github size={20} />
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+  <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-gray-900 to-transparent"></div>
+</section>
 
       {/* Features Grid */}
       <section id="features" className="py-20 bg-gray-900">
