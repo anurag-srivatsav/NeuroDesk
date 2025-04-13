@@ -7,23 +7,23 @@ function Company() {
     {
       title: "NeuroDesk : Meet Your Ultimate Desktop AI Personal Assistant",
       description: "An intelligent desktop companion with voice command support, LLM-based conversations, and automated daily tasks.",
-      date: "Completed Jan 2025",
-      users: "1.2M+ users",
-      downloads: "850K+ downloads",
+      date: "Completed march 2025",
+      users: "132+ users",
+      downloads: "80+ downloads",
       rating: "4.8 / 5",
       category: "Desktop AI",
-      image: "https://theacademic.com/wp-content/uploads/2024/10/312_article_pic.png",
+      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/iGita_HomePage.jpg",
       link: "https://neurodesk.ai"
     },
     {
       title: "IGITA - Divine Gods AI",
       description: "The world's first spiritual AI app blending ancient Indian Itihasas, slokas, and epics like the Ramayana into an immersive experience.",
-      date: "Deployed Nov 2024",
-      users: "750K+ users",
-      downloads: "600K+ downloads",
+      date: "Deployed Dec 2024",
+      users: "111+ users",
+      downloads: "90+ downloads",
       rating: "4.7 / 5",
       category: "Spiritual Intelligence",
-      image: "https://www.securities.io/wp-content/uploads/2024/03/DALL%C2%B7E-2024-03-21-09.08.33-A-highly-detailed-and-realistic-image-showing-an-advanced-robot-seated-at-a-modern-sleek-desk-surrounded-by-multiple-screens-displaying-complex-algor.webp",
+      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/NeuroDesk_homePage.jpg",
       link: "https://igita.ai"
     },
     {
@@ -51,7 +51,7 @@ function Company() {
             </Link>
             <div className="flex items-center gap-2 ml-auto">
               <BrainCircuit className="w-6 h-6 text-purple-400" />
-              <span className="text-lg font-bold">Neuronex Labs</span>
+              <span className="text-lg font-bold">AspireX Labs</span>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ function Company() {
       <span className="text-blue-400">Future</span>
     </h1>
     <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-      At <span className="text-purple-400 font-semibold">Neuronex Labs</span>, we build
+      At <span className="text-purple-400 font-semibold">AspireX Labs</span>, we build
       next-gen <span className="text-green-400 font-medium">AI systems</span> redefining industries across{" "}
       <span className="text-yellow-400">healthcare</span>,{" "}
       <span className="text-pink-400">retail</span>, and{" "}
