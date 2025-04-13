@@ -43,7 +43,7 @@ function Blog() {
 
       <div className="flex items-center gap-2">
         <BrainCircuit  className="w-6 h-6 text-purple-400" />
-        <span className="text-lg font-bold text-white">Neuronex Labs</span>
+        <span className="text-lg font-bold text-white">AspireX Labs</span>
       </div>
     </div>
   </div>
