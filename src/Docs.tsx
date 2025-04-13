@@ -30,7 +30,7 @@ function Docs() {
         <div className="flex items-center gap-2">
           <BrainCircuit className="w-5 h-5 text-purple-400" />
           <span className="text-base font-semibold text-white tracking-tight">
-            Neuronex Labs
+            AspireX Labs
           </span>
         </div>
         <button
@@ -148,7 +148,7 @@ function Docs() {
           <section id="getting-started" className="space-y-4">
             <h2 className="text-xl sm:text-2xl font-bold text-white">Getting Started</h2>
             <p className="text-zinc-300 text-xs sm:text-sm">
-              Follow these simple steps to launch your AI assistant powered by Neuronex Labs.
+              Follow these simple steps to launch your AI assistant powered by AspireX Labs.
             </p>
 
             <ol className="relative border-l border-zinc-700 pl-5 space-y-6">
