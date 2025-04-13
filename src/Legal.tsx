@@ -15,7 +15,7 @@ function Legal() {
 
     <div className="flex items-center gap-2 text-white">
       <BrainCircuit size={20} />
-      <span className="font-semibold text-sm">Neuronex Labs</span>
+      <span className="font-semibold text-sm">AspireX Labs</span>
     </div>
   </div>
 </header>
@@ -27,7 +27,7 @@ function Legal() {
         <section id="legal">
           <h2 className="text-3xl font-bold text-white mb-4">Legal Notice</h2>
           <p className="text-gray-400 leading-relaxed">
-            Neuronex Labs is committed to ethical practices, transparency, and compliance. By accessing our services,
+            AspireX Labs is committed to ethical practices, transparency, and compliance. By accessing our services,
             you agree to the conditions described in the following sections.
           </p>
         </section>
@@ -36,7 +36,7 @@ function Legal() {
         <section id="privacy">
           <h2 className="text-3xl font-bold text-white mb-4">Privacy Policy</h2>
           <p className="text-gray-400 leading-relaxed">
-            We value your privacy. Neuronex Labs collects minimal personal information necessary for the functioning of
+            We value your privacy. AspireX Labs collects minimal personal information necessary for the functioning of
             our platform. We never sell or misuse user data.
           </p>
           <p className="text-gray-400 mt-2">
@@ -49,7 +49,7 @@ function Legal() {
         <section id="terms">
           <h2 className="text-3xl font-bold text-white mb-4">Terms & Conditions</h2>
           <p className="text-gray-400 leading-relaxed">
-            By using our services, you agree to follow all applicable laws and to use Neuronex Labs for lawful purposes
+            By using our services, you agree to follow all applicable laws and to use AspireX Labs for lawful purposes
             only. You are responsible for maintaining the confidentiality of your account.
           </p>
           <p className="text-gray-400 mt-2">
@@ -61,7 +61,7 @@ function Legal() {
         <section id="license">
           <h2 className="text-3xl font-bold text-white mb-4">License</h2>
           <p className="text-gray-400 leading-relaxed">
-            All original content and technology provided by Neuronex Labs is licensed under a proprietary license unless
+            All original content and technology provided by AspireX Labs is licensed under a proprietary license unless
             otherwise stated.
           </p>
           <p className="text-gray-400 mt-2">
@@ -71,13 +71,13 @@ function Legal() {
 
         {/* ABOUT NEURODEK AI */}
         <section id="about-ai">
-          <h2 className="text-3xl font-bold text-white mb-4">About Neurodek AI</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">About Neurodesk AI</h2>
           <p className="text-gray-400 leading-relaxed">
-            Neurodek AI is a desktop assistant designed for productivity, privacy, and local-first experiences. It
+            Neurodesk AI is a desktop assistant designed for productivity, privacy, and local-first experiences. It
             runs natively on your machine, ensuring your data stays secure and offline.
           </p>
           <p className="text-gray-400 mt-2">
-            Neurodek helps you automate tasks, summarize content, and generate context-aware outputs—without ever
+            Neurodesk helps you automate tasks, summarize content, and generate context-aware outputs—without ever
             sending your personal data to external servers.
           </p>
         </section>
@@ -85,7 +85,7 @@ function Legal() {
 
       {/* Footer */}
       <footer className="mt-32 text-center text-sm text-gray-600 border-t border-gray-800 pt-8">
-        © {new Date().getFullYear()} Neuronex Labs. All rights reserved.
+        © {new Date().getFullYear()} AspireX Labs. All rights reserved.
       </footer>
     </div>
   );
