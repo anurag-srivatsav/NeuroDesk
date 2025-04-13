@@ -12,7 +12,7 @@ function Company() {
       downloads: "80+ downloads",
       rating: "4.8 / 5",
       category: "Desktop AI",
-      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/iGita_HomePage.jpg",
+      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/NeuroDesk_homePage.jpg",
       link: "https://neurodesk.ai"
     },
     {
@@ -23,7 +23,7 @@ function Company() {
       downloads: "90+ downloads",
       rating: "4.7 / 5",
       category: "Spiritual Intelligence",
-      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/NeuroDesk_homePage.jpg",
+      image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/iGita_HomePage.jpg",
       link: "https://igita.ai"
     },
     {
