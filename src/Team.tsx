@@ -6,18 +6,18 @@ const teamMembers = [
   {
     name: 'Anurag',
     role: 'Founder',
-    bio: 'Architect of Neuronex Labs, focused on building AI-driven products that scale globally.',
-    image: 'https://api.dicebear.com/7.x/initials/svg?seed=Anurag',
-    linkedin: '#',
-    twitter: '#',
+    bio: 'Architect of AspireX Labs, focused on building AI-driven products that scale globally.',
+    image: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1744353942/whsmpedzdjl63l4jpe7y.png',
+    linkedin: 'https://www.linkedin.com/in/anuragsrivatsav/',
+    twitter: 'https://x.com/AnuragSrivatsa4',
   },
   {
     name: 'Lalith',
     role: 'Co-Founder',
     bio: 'Expert in product strategy and user experience, driving innovation from idea to impact.',
     image: 'https://api.dicebear.com/7.x/initials/svg?seed=Lalith',
-    linkedin: '#',
-    twitter: '#',
+    linkedin: 'https://www.linkedin.com/in/lalithsreevari',
+    twitter: 'https://x.com/Lalithx86',
   },
   {
     name: 'Sneha',
@@ -43,7 +43,7 @@ function Team() {
           </div>
           <div className="flex items-center gap-2">
             <BrainCircuit className="w-6 h-6 text-purple-400" />
-            <span className="text-lg font-bold tracking-wide text-white">Neuronex Labs</span>
+            <span className="text-lg font-bold tracking-wide text-white">AspireX Labs</span>
           </div>
         </div>
       </nav>
@@ -54,7 +54,7 @@ function Team() {
           <h2 className="text-5xl font-extrabold mb-4 animate-slide-in flex items-center justify-center gap-3">
   <span className="text-5xl">🧠</span>
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-500 to-pink-500">
-    Brains Behind Neuronex Labs
+    Brains Behind AspireX Labs
   </span>
 </h2>
 
