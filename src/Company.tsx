@@ -146,27 +146,37 @@ function Company() {
         </div>
       </section>
 
-     {/* Team Section */}
+ {/* Team Section */}
 <section className="py-20 bg-gradient-to-b from-gray-900 to-purple-900/20">
   <div className="container mx-auto px-4">
-   <h2 className="text-4xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-500 to-pink-500 animate-slide-in">
-  ✨ Meet the Founders
-</h2>
+    <h2 className="text-4xl font-extrabold text-center mb-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-500 to-pink-500 animate-slide-in">
+      Meet the Founders
+    </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
       {/* Founder Card */}
-      {[{
-        name: "Anurag Srivastav Thammera",
-        role: "Founder",
-        desc: "Visionary tech architect driving innovation across AI, robotics, and real-time systems.",
-        image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744353942/whsmpedzdjl63l4jpe7y.png"
-      },
-      {
-        name: "Lalith Sreevari",
-        role: "Co-Founder",
-        desc: "Product strategist and team leader focused on creating intuitive AI experiences at scale.",
-        image: "https://api.dicebear.com/7.x/initials/svg?seed=Lalith"
-      }].map((founder, idx) => (
+      {[
+        {
+          name: "Anurag Srivastav Thammera",
+          role: "Founder",
+          desc: "Visionary tech architect driving innovation across AI, robotics, and real-time systems.",
+          image: "https://res.cloudinary.com/dvlgixtg8/image/upload/v1744353942/whsmpedzdjl63l4jpe7y.png",
+          socials: [
+            { platform: "linkedin", url: "https://www.linkedin.com/in/anuragsrivatsav/" },
+            { platform: "twitter", url: "https://x.com/AnuragSrivatsa4" }
+          ]
+        },
+        {
+          name: "Lalith Sreevari",
+          role: "Co-Founder",
+          desc: "Product strategist and team leader focused on creating intuitive AI experiences at scale.",
+          image: "https://api.dicebear.com/7.x/initials/svg?seed=Lalith",
+          socials: [
+            { platform: "linkedin", url: "https://www.linkedin.com/in/lalithsreevari" },
+            { platform: "twitter", url: "https://x.com/Lalithx86" }
+          ]
+        }
+      ].map((founder, idx) => (
         <div
           key={idx}
           className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-3xl shadow-2xl transform transition duration-300 hover:scale-105 hover:shadow-purple-800/50"
@@ -183,12 +193,19 @@ function Company() {
               <p className="text-gray-300 mt-3 text-sm">{founder.desc}</p>
             </div>
             <div className="flex justify-center gap-5 mt-4">
-              <a href="#" className="text-purple-400 hover:text-purple-300 transition-all">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-purple-400 hover:text-purple-300 transition-all">
-                <Twitter className="w-5 h-5" />
-              </a>
+              {founder.socials.map((social, socialIdx) => (
+                <a
+                  key={socialIdx}
+                  href={social.url}
+                  className="text-purple-400 hover:text-purple-300 transition-all"
+                >
+                  {social.platform === "linkedin" ? (
+                    <Linkedin className="w-5 h-5" />
+                  ) : (
+                    <Twitter className="w-5 h-5" />
+                  )}
+                </a>
+              ))}
             </div>
           </div>
         </div>
@@ -196,7 +213,6 @@ function Company() {
     </div>
   </div>
 </section>
-
     </div>
   );
 }
